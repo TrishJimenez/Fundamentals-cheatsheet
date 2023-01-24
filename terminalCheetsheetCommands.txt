@@ -1,0 +1,40 @@
+terminal commands for MacOS
+
+PWD - Present Working Directory
+    * shows you the path to the folder you are currently in
+
+CD - Change Directory
+    * changes the folder your in to your home Directory
+
+CD .. - Change Directory
+    * changes the folder to the parent folder that you are currently in
+
+ls - list all files/ folders in current directory
+
+mkdir - make directory
+    * created a folder in the current folder you are in (still have to cd into that folder that you make)
+
+rm -rf - deletes a folder and all of its content
+
+{service} --version - will tell you the version of whatever service/ software you are currently running
+
+code . - (From terminal) will open vscode in that folder
+
+node {fileName} - will test/ call the function that you console.log
+
+proper  format for a function:
+    function nameOfFunction (variables){
+        return
+    }
+    console.log(nameOfFunction(testing variables))
+
+clear - will clear your terminal history
+
+To check if a program is installed just type in the name and if you get a list of commands then its installed if you get "command not found" the program is not properly installed or configured
+
+To add new code to existing repo:
+Git add .
+Git commit -m 'any message/update'
+Git push
+* if says it was successful double check by entering:
+Git status to make sure 'your branch is uo to date'
